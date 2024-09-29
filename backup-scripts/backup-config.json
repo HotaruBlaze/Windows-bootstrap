@@ -1,0 +1,7 @@
+{
+  "backupLocation": "O:\\Backups",
+  "ludusavi": {
+      "backupPath": "Ludusavi",
+      "options": "backup --force"
+  }
+}

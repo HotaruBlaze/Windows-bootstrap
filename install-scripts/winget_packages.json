@@ -1,0 +1,87 @@
+{
+    "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+    "CreationDate": "2024-09-28T22:30:38.096-00:00",
+    "Sources": [
+        {
+            "Packages": [
+                {
+                    "PackageIdentifier": "7zip.7zip"
+                },
+                {
+                    "PackageIdentifier": "ShareX.ShareX"
+                },
+                {
+                    "PackageIdentifier": "Git.Git"
+                },
+                {
+                    "PackageIdentifier": "Corsair.iCUE.5"
+                },
+                {
+                    "PackageIdentifier": "Nvidia.GeForceExperience"
+                },
+                {
+                    "PackageIdentifier": "Nvidia.PhysX"
+                },
+                {
+                    "PackageIdentifier": "Starship.Starship"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.OpenSSH.Beta"
+                },
+                {
+                    "PackageIdentifier": "GnuPG.Gpg4win"
+                },
+                {
+                    "PackageIdentifier": "Valve.Steam"
+                },
+                {
+                    "PackageIdentifier": "Yubico.YubikeyManager"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.VCRedist.2015+.x86"
+                },
+                {
+                    "PackageIdentifier": "eMClient.eMClient"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.VCRedist.2015+.x64"
+                },
+                {
+                    "PackageIdentifier": "Kopia.KopiaUI"
+                },
+                {
+                    "PackageIdentifier": "GorillaDevs.GDLauncher"
+                },
+                {
+                    "PackageIdentifier": "Opera.OperaGX"
+                },
+                {
+                    "PackageIdentifier": "Tympanix.Electorrent"
+                },
+                {
+                    "PackageIdentifier": "mtkennerly.ludusavi"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.VisualStudioCode",
+                    "Installers": [
+                        {
+                            "Arch": "x64",
+                            "InstallerType": "exe",
+                            "Url": "https://update.code.visualstudio.com/latest/win32-x64/stable",
+                            "InstallerSwitches": {
+                                "Silent": "/VERYSILENT /SP- /MERGETAKS=\"!runcode,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath\""
+                            }
+                        }
+                    ]
+                }
+            ],
+            "SourceDetails": {
+                "Argument": "https://cdn.winget.microsoft.com/cache",
+                "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+                "Name": "winget",
+                "Type": "Microsoft.PreIndexed.Package"
+            }
+        }
+    ],
+    "WinGetVersion": "1.8.1911"
+}
